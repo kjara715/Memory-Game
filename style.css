@@ -1,0 +1,72 @@
+/* #game div */
+
+/* #gameBoard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+} */
+
+#gameBoard {
+  display: flex;
+  justify-content: center;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(4, 8vw);
+  grid-template-rows: repeat(3, 8vw);
+  row-gap: 2vw;
+  column-gap: 2vw;
+  
+  
+}
+
+#restart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ img {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  display: inline-block;
+}
+
+#play {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 8em;
+  
+}
+
+button{
+  width: 12em;
+  font-size: 3em;;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+body{
+  background-image: url("background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
